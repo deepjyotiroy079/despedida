@@ -18,28 +18,6 @@ body {
   color: #828282;
   background: #fff;
 }
-
-/*Glowing text*/
-.heading {
-  font-size: 12vh;
-  line-height: 1.4;
-  font-family: "Pacifico", cursive;
-  -webkit-animation: heading 1s ease-in-out infinite alternate;
-  -moz-animation: heading 1s ease-in-out infinite alternate;
-  animation: heading 1s ease-in-out infinite alternate;
-}
-@-webkit-keyframes heading {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e67e00,
-      0 0 40px #e67e00, 0 0 50px #e67e00, 0 0 60px #e67e00, 0 0 70px #e67e00;
-  }
-
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ffc94d, 0 0 40px #ffc94d,
-      0 0 50px #ffc94d, 0 0 60px #ffc94d, 0 0 70px #ffc94d, 0 0 80px #ffc94d;
-  }
-}
-
 #page {
   position: relative;
   overflow-x: hidden;
