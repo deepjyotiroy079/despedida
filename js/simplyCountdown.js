@@ -117,8 +117,8 @@
         var parameters = extend({
             year: 2019,
             month: 4,
-            day: 27,
-            hours: 0,
+            day: 26,
+            hours: 16,
             minutes: 0,
             seconds: 0,
             words: {
